@@ -1,1 +1,1 @@
-# ai
+# Repozytorium materiałów związanych z AI
