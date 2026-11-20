@@ -1,6 +1,6 @@
 # Repozytorium materiałów związanych z AI
 
-1. [response](./response) - plik konfigurujący postać odpowiedzi. Używaj jako konfigurację, lub po prostu pisząc "Poniżej format odpowiedzi, które masz stosować w tej rozmowie" i następnie wklej zawartość pliku. 
+1. [response](./response) - plik konfigurujący postać odpowiedzi. Używaj jako konfigurację, lub po prostu pisząc `Poniżej format odpowiedzi, które masz stosować w tej rozmowie` i następnie wklej zawartość pliku. 
 Najważniejszą korzyścią jest to, że każda odpowiedź pokaże na początku poniższą tabelę:
 
 |Expert(s)        |{list; of; EXPERTs}|
@@ -17,3 +17,5 @@ Odpowiedź:
 | Question  | Przeprowadź mnie krok po kroku przez konfigurację Google Cloud Vision OCR i testowe rozpoznawanie dokumentu.          |
 | Plan      | Prowadzę Cię sekwencyjnie: konto i projekt → billing → Vision API → uwierzytelnienie → test obrazu → test PDF. Po każdym etapie podam dokładnie, co sprawdzić. |
 (...)
+
+2. [personalize](./personalize) plik do personalizacji komunikacji z modelem. Używaj go jako konfigurację, lub po prostu pisząc: `oto moje wytyczne, stosuj je w każdej odpowiedzi` i następnie wklej zawartość pliku. 
